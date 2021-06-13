@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora Valorização</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="imgBx">
+			<img src="./img/bg.png" alt="">
+		</div>
+		<div class="content">
+			<div class="title">
+				<h1>Se o jogador jogou a rodada 2.</h1>
+				<p>Esta será a fórmula:</p>
+			</div>
+			<div class="coeficiente">
+				<p>Coeficiente <span>valor que será multiplicado</span>:</p>
+				<input type="number" id="c" value="3.8">
+			</div>
+			<div class="col">
+				<div class="inputBx">
+					<label for="precoJogador">Preço do jogador: </label>
+					<input type="number" id="precoJogador" value="0">
+				</div>
+				<div class="inputBx">
+					<label for="pontosRodada1">Pontos na rodada 1: </label>
+					<input type="number" id="pontosRodada1" value="0">
+				</div>
+				<div class="inputBx">
+					<label for="pontosRodada2">Pontos na rodada 2: </label>
+					<input type="number" id="pontosRodada2" value="0">
+				</div>
+				<button class="btnRodada1">Calcular</button>
+			</div>
+			<div class="res">Pontuação mínima para valorizar: </div>
+
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
